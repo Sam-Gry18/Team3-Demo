@@ -1,7 +1,8 @@
 import "./style.css";
-import { MDCDataTable } from "@material/data-table";
 import React, {Component } from "react";
-import $ from 'jquery'
+//import { MDCDataTable } from "@material/data-table";
+
+//import $ from 'jquery'
 
 
 class Table extends Component {
@@ -61,7 +62,7 @@ componentWillMount() {
 }
  
 //Sorting Methods for material
-  sortByCredit = () => {
+ /* sortByCredit = () => {
     $('#credits_col').bind( "click",()=> {
       const sortOrder = $('#credits_col').attr('aria-sort');
       let sorted;
@@ -99,13 +100,14 @@ componentWillMount() {
       this.setState({dynamicTableData: sorted});
       console.log(this.state.dynamicTableData);  
     });
-  }
-  
+  }*/
+
+  /*
   componentDidMount(){
     const dataTable = new MDCDataTable(document.querySelector('.mdc-data-table'));
     this.sortByCredit();
     this.sortByDepartment();
-   }
+   }*/
 
   render(){
   
@@ -144,7 +146,7 @@ componentWillMount() {
               </tbody>
             </table>
           </div>
- 
+ {/* 
           <div id="MaterialTable">
             <div class="mdc-data-table">
               <table class="mdc-data-table__table" aria-label="Lectures">
@@ -248,10 +250,10 @@ componentWillMount() {
                 </tbody>
               </table>
             </div>
-           
+             
           </div>
+         */}
         </div>
-         
       </div>
     );
   }

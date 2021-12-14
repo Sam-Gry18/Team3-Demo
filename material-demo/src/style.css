@@ -109,7 +109,7 @@ body {
 }
 
 
-
+/*
 #MaterialTable{
   margin-left: 27%;
   margin-top: 5%;
@@ -123,10 +123,10 @@ body {
 .mdc-data-table__cell{
   text-align: center;
 }
-
+*/
 
 /* Import of material stylesheet*/
- @import "../node_modules/material-components-web/dist/material-components-web.css";
+ /*@import "../node_modules/material-components-web/dist/material-components-web.css";*/
 
 
 
@@ -161,11 +161,11 @@ body {
 
 
 /*Import of Google Icons*/
-
+/*
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }*/
 
 

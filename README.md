@@ -1,6 +1,6 @@
 # Team3-Demo
 
-This is the final code version
+This is the started code 
 
 
 Steps to run project:
